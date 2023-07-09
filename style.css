@@ -17,21 +17,118 @@
     color: rgb(190, 207, 208);
 }
 /* nav style */
+.nav-back{
+    background-color: rgba(172, 166, 166, 0.5);
+}
+.logo img{
+    position: absolute;
+    top:15px;
+}
+.logo p{
+    color: aqua;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    padding:30px 0;
+}
+.nav-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+    
+}
+.menu {
+    text-align: right;
+}
+.menu li{
+    list-style: none;
+}
+.menu a{
+    cursor: pointer;
+    text-decoration: none;
+    padding: 0 15px;
+    font-size: 20px;
+    color: black;
 
+}
 
 
 /* banner style */
-
-
-
+.banner-back{
+    background-image: url(./asset/image/background.jpg), linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+    height: 100vh;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    
+}
+.banner-back h1{
+    text-align: center;
+    font-size: 90px;
+    padding-top: 100px;
+    font-weight: bold;
+}
+.banner-back p{
+    font-size: 25px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.two{
+    padding:18px 30px;
+    border: none;
+    margin-left: 10px;
+}
+.one{
+    background-color: rgb(212, 30, 30);
+    padding:18px 30px;
+    border: none;
+    margin-left:480px;
+}
 /* services style */
+.service-back{
+    background-image: url(./asset/image/footer-bg.png), linear-gradient(45deg, rgba 0, 0, 0,0.4, rgba 0, 0, 0, 0.5);
+    height: 120vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}   
+.service-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.service-flex img{
+    width: 100px;
+}
+.service-content{
+    width: 50%;
+    margin-left: 40px;
+}
+.service-content h1{
+    font-size: 40px;
+}
 
-
-
+.service-btn{
+    padding: 20px 35px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 50px;
+}
 
 /* consult style */
 
-
+.rel img{
+    width: 100px;
+}
 
 
 /* blog style */
